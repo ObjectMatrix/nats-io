@@ -7,7 +7,7 @@
 ## Step 1:
 
 Brew NATS on your MAC:  brew install gnatsd
-> start nats daemon: gnatsd -m 8222
+`start nats daemon: gnatsd -m 8222`
 verify your installation: http://localhost:8222
 See following? You're good to go
 
@@ -15,11 +15,11 @@ See following? You're good to go
 
 Now publish messages to NATS server
 (on Mac, if you need a telnet brew it:   brew install telnet)
-> telnet localhost 4222
+`telnet localhost 4222`
  
 and publish a message:
-> pub foo 5
-hello
+`pub foo 5`
+`hello`
 
 ## Step 3:
 
