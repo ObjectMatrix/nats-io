@@ -1,0 +1,17 @@
+{
+  "name": "messagingnats",
+  "version": "1.0.0",
+  "description": "",
+  "main": "nats-server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "hapi": "^17.2.0",
+    "nats": "^0.7.29",
+    "socket.io": "^2.0.4"
+  }
+}
